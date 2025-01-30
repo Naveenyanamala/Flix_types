@@ -1,5 +1,5 @@
 {
-  "name": "omniflixjs-types",
+  "name": "flixjs-types",
   "version": "0.0.1",
   "description": "JS and TS types relating to Protocol Buffers used by Cosmos SDK and other related projects",
   "contributors": [
@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OmniFlix/omniflixjs-types"
+    "url": "https://github.com/Naveenyanamala/Flix_types.git"
   },
   "publishConfig": {
     "access": "public"
@@ -23,6 +23,7 @@
     "ibc/",
     "tendermint/",
     "OmniFlix/",
+    "osmosis/",
     "/binary.*",
     "/helpers.*",
     "/utf8.*",

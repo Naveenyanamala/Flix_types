@@ -12,7 +12,7 @@ telescope({
     "protos/cosmos-sdk/third_party/proto",
     "protos/wasmd",
     "protos/ibc-go",
-    "protos/omniflixhub/proto",
+    "protos/omniflixhub",
   ],
   outPath: outPath,
   options: {
