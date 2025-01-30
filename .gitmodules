@@ -1,0 +1,12 @@
+[submodule "protos/cosmos-sdk"]
+	path = protos/cosmos-sdk
+	url = https://github.com/cosmos/cosmos-sdk.git
+[submodule "protos/ibc-go-src"]
+	path = protos/ibc-go-src
+	url = https://github.com/cosmos/ibc-go.git
+[submodule "protos/wasmd-src"]
+	path = protos/wasmd-src
+	url = https://github.com/CosmWasm/wasmd.git
+[submodule "protos/omniflixhub-src"]
+	path = protos/omniflixhub-src
+	url = https://github.com/OmniFlix/omniflixhub.git

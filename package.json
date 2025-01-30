@@ -1,0 +1,50 @@
+{
+  "name": "omniflixjs-types",
+  "version": "0.0.1",
+  "description": "JS and TS types relating to Protocol Buffers used by Cosmos SDK and other related projects",
+  "contributors": [
+    "Blockeater <hariom@layerzerox.com>",
+    "Naveen Yanamala <naveen@layerzerox.com>"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmniFlix/omniflixjs-types"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files":[
+    "cosmos/",
+    "cosmos_proto/",
+    "cosmwasm/",
+    "gogoproto/",
+    "google/",
+    "ibc/",
+    "tendermint/",
+    "OmniFlix/",
+    "/binary.*",
+    "/helpers.*",
+    "/utf8.*",
+    "/varint.*",
+    "/index.*",
+    "*.md",
+    "!wasmd-*/**/*.md",
+    "!cosmos-sdk-*/**/*.md"
+  ],
+  "scripts": {
+    "format": "prettier --write --loglevel warn \"./src/**/*.ts\" \"./scripts/**/*.js\"",
+    "precodegen": "./scripts/exports_protos.sh",
+    "codegen": "rm -rf ./src && ./scripts/codegen.js && npm run format",
+    "prepare-publishing": "./scripts/prepare-publishing.sh",
+    "build": "rm -rf ./build && tsc && npm run prepare-publishing"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@cosmology/telescope": "^1.0.7",
+    "@types/node": "22.12.0",
+    "prettier": "^3.0.3",
+    "typescript": "5.7.3"
+  }
+}
