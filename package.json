@@ -1,6 +1,6 @@
 {
   "name": "flixjs-types",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "JS and TS types relating to Protocol Buffers used by Cosmos SDK and other related projects",
   "contributors": [
     "Blockeater <hariom@layerzerox.com>",
